@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>save</title>
+</head>
+<body>
+<form action="/board/save" method="post">
+    <label for="boardWriter">writer: </label>
+    <input type="text" name="boardWriter" id="boardWriter"/>
+    <br/>
+    <label for="boardPass">pass: </label>
+    <input type="text" name="boardPass" id="boardPass"/>
+    <br/>
+    <label for="boardTitle">title: </label>
+    <input type="text" name="boardTitle" id="boardTitle"/>
+    <br/>
+    <label for="boardContents">contents: </label>
+    <textarea name="boardContents" id="boardContents" cols="30" rows="10"></textarea>
+    <br/>
+    <input type="submit" value="작성"/>
+</form>
+</body>
+</html>
